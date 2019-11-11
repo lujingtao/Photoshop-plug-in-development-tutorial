@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    font-size:12px;
+}
+body{
+    background: #535353;
+    color:#fff;
+}
+button{
+    font-size: 12px;;
+    padding:5px 10px;
+    border-radius: 3px;
+    border:1px solid #262626;
+    color:#fff;
+    background:#F2F2F2;
+    background: linear-gradient(#333, #000);
+    box-shadow:#555 0 1px 0 inset;
+    outline:none;
+}
+button:active{
+    background: linear-gradient(#000, #333);
+}
+.app h3{
+    text-align:center;
+    color:#fff;
+    padding:20px 0;
+}
+.main{
+    text-align: left;
+    display: flex;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border:1px solid #ababab;
+    background:#909090;
+    padding:3px;
+    width:100px;
+}
+input[type=number]{
+    
+}
+.row{
+    padding:5px 0;
+}
+.row label{
+    display:inline-block;
+    width:60px;
+    text-align:right;
+}
